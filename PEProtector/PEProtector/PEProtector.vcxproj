@@ -146,11 +146,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\CommonHeader\CommonHeader.h" />
+    <ClInclude Include="..\..\CommonHeader\MyCryptOpt.h" />
     <ClInclude Include="PackTools.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\CommonHeader\MyCryptOpt.cpp" />
     <ClCompile Include="PEProtector.cpp" />
     <ClCompile Include="PackTools.cpp" />
     <ClCompile Include="stdafx.cpp">

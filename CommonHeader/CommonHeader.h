@@ -9,6 +9,14 @@ enum emSecNumber
     SEC_NUMBERS
 };
 
+// 压缩信息
+struct tagCompressedDataInfo
+{
+    DWORD m_dwCompressedDataOffset; // 相对于节头部的偏移
+    DWORD m_dwCompressedDataSize;  // 压缩数据的大小
+    DWORD m_dwDecomDataSize;
+};
+
 // 解析 PE 头
 typedef struct  tagHeader
 {
